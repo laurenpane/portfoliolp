@@ -1,0 +1,53 @@
+.interests {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "javaScript react info info info info"
+    "html css info info info info";
+  opacity: 0.95;
+}
+
+.interests img {
+  width: 100%;
+  height: 100%;
+  height: auto;
+}
+
+.interests .javaScript {
+  grid-area: javaScript;
+}
+
+.interests .html {
+  grid-area: html;
+}
+
+.interests .react {
+  grid-area: react;
+}
+
+.interests .css {
+  grid-area: css;
+}
+
+.interests .info {
+  grid-area: info;
+  padding: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .interests .info {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .interests .info {
+    font-size: 15px;
+  }
+}

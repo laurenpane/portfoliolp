@@ -1,0 +1,41 @@
+.lauren2 {
+  width: 80%;
+  height: auto;
+  opacity: 0.8;
+  padding-top: 50px;
+  align-self: center;
+  padding: 15px;
+}
+
+.aboutMe {
+  display: grid;
+  grid-template-areas:
+    "lauren2 description description"
+    "lauren2 more more";
+  background-color: white;
+}
+
+.aboutMe .lauren2 {
+  grid-area: lauren2;
+  opacity: 0.95;
+}
+
+.aboutMe .description {
+  grid-area: description;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  align-self: center;
+  padding: 30px;
+}
+
+.aboutMe .more {
+  grid-area: more;
+  width: 40%;
+  height: 1.5em;
+  justify-self: center;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+}

@@ -1,0 +1,66 @@
+.navbar {
+  background-color: white;
+  opacity: 0.9;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4em;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr 10fr 2fr;
+  grid-gap: 5px;
+  z-index: 9999;
+}
+
+a {
+  float: left;
+  text-decoration: none;
+  align-self: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: bold;
+  padding: 0;
+}
+
+a .email {
+  grid-area: email;
+}
+
+a .linkedIn {
+  grid-area: linkedIn;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+  opacity: 1;
+}
+
+.emailMe,
+.linkedInMe {
+  width: 40px;
+  height: auto;
+}
+
+App {
+  position: relative;
+}
+
+.laurenPane {
+  color: black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .laurenPane {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .laurenPane {
+    font-size: 15px;
+  }
+}
