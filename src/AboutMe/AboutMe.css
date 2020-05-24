@@ -40,3 +40,14 @@
   text-align: center;
   font-size: 25px;
 }
+
+.more {
+  text-align: center;
+  font-weight: bold;
+  grid-area: link;
+  color: black;
+}
+
+.more:hover {
+  color: grey;
+}

@@ -29,10 +29,10 @@ export default function Interests() {
           family. I love travelling, particularly when it involves some sort of
           adventure, particularly mountain-climbing.
         </p>
+        <Link className="detailsLink" to="/">
+          Back to homepage
+        </Link>
       </div>
-      <Link className="detailsLink" to="/">
-        Back to homepage
-      </Link>
     </div>
   );
 }

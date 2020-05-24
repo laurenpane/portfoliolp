@@ -1,7 +1,6 @@
 .interests {
   font-size: 25px;
-  background-color: black;
-  color: white;
+  color: black;
   text-align: center;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,7 +8,8 @@
   display: grid;
   grid-template-areas:
     "javaScript react info info info info"
-    "html css info info info info";
+    "html css info info info info"
+    "link link link link link link";
   opacity: 0.95;
 }
 
@@ -38,6 +38,17 @@
 .interests .info {
   grid-area: info;
   padding: 30px;
+}
+
+.detailsLink {
+  text-align: center;
+  font-weight: bold;
+  grid-area: link;
+  color: black;
+}
+
+.detailsLink:hover {
+  color: grey;
 }
 
 @media only screen and (max-width: 800px) {

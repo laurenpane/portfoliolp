@@ -11,7 +11,7 @@ export default function AboutMe() {
         London based Full Stack Junior Developer, proficient in JavaScript,
         ReactJS, NodeJS, HTML5 and CSS3
       </h1>
-      <Link className="readMore" to="/interests">
+      <Link className="more" to="/interests">
         Read more about me
       </Link>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar/Navbar.js";
 import AboutMe from "./AboutMe/AboutMe.js";
 import lauren from "./Imgs/laurena.jpg";
+import "./Homepage.css";
 
 export default function Homepage() {
   return (
