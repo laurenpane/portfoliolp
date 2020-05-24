@@ -10,7 +10,7 @@ export default class Navbar extends Component {
       <div className="navbar">
         <a
           className="email"
-          href="http://www.google.com"
+          href="mailto:lauren.pane1@googlemail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
