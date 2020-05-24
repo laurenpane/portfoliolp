@@ -43,6 +43,7 @@ a:hover {
   width: 40px;
   height: auto;
   margin-left: 15px;
+  margin-right: 15px;
 }
 
 .laurenPane {
@@ -51,14 +52,27 @@ a:hover {
   text-align: center;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 880px) {
   .laurenPane {
     font-size: 20px;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 450px) {
+  .navbar {
+    height: 6em;
+  }
+}
+
+@media only screen and (max-width: 380px) {
   .laurenPane {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .laurenPane {
+    height: 6em;
     font-size: 15px;
   }
 }
