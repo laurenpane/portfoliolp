@@ -4,6 +4,7 @@ import html from "../Imgs/Logos/html.jpeg";
 import javaScript from "../Imgs/Logos/javaScript.png";
 import react from "../Imgs/Logos/react.png";
 import css from "../Imgs/Logos/css.png";
+import { Link } from "react-router-dom";
 
 export default function Interests() {
   return (
@@ -29,6 +30,9 @@ export default function Interests() {
           adventure, particularly mountain-climbing.
         </p>
       </div>
+      <Link className="detailsLink" to="/">
+        Back to homepage
+      </Link>
     </div>
   );
 }
