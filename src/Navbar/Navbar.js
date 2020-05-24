@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Navbar.css";
 import emailMe from "../Imgs/Logos/emailMe.png";
 import linkedInMe from "../Imgs/Logos/linkedInMe.png";
+import gitHubMe from "../Imgs/Logos/githubMe.png";
 
 export default class Navbar extends Component {
   render() {
@@ -26,6 +27,14 @@ export default class Navbar extends Component {
         <h2 className="laurenPane">
           Lauren Pane - Junior Full-Stack Software Developer
         </h2>
+        <a
+          className="gitHubMe"
+          href="https://github.com/laurenpane"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={gitHubMe} className="gitHubMe" alt="gitHubMe" />
+        </a>
       </div>
     );
   }

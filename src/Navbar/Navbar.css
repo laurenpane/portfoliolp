@@ -9,7 +9,7 @@
   height: 4em;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr 10fr 2fr;
+  grid-template-columns: 1fr 1fr 8fr 1fr 1fr;
   grid-gap: 5px;
   z-index: 9999;
 }
@@ -38,13 +38,11 @@ a:hover {
 }
 
 .emailMe,
-.linkedInMe {
+.linkedInMe,
+.gitHubMe {
   width: 40px;
   height: auto;
-}
-
-App {
-  position: relative;
+  margin-left: 15px;
 }
 
 .laurenPane {
