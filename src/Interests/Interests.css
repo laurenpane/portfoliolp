@@ -19,7 +19,7 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 10px;
-  padding-top: 70px;
+  margin-top: 90px;
 }
 
 .interests .education {
@@ -69,7 +69,7 @@
 }
 
 .link:hover {
-  color: grey;
+  color: #2196f3;
 }
 
 .interests .info .par {
