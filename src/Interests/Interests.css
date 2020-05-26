@@ -65,6 +65,7 @@
   font-weight: bold;
   grid-area: link;
   color: black;
+  padding-bottom: 30px;
 }
 
 .link:hover {
