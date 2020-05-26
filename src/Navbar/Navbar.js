@@ -3,11 +3,16 @@ import "./Navbar.css";
 import emailMe from "../Imgs/Logos/emailMe.png";
 import linkedInMe from "../Imgs/Logos/linkedInMe.png";
 import gitHubMe from "../Imgs/Logos/githubMe.png";
+import home from "../Imgs/Logos/home.png";
+import { Link } from "react-router-dom";
 
 export default class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
+        <Link className="home" to="/">
+          <img src={home} alt="home" className="home" />
+        </Link>
         <a
           className="email"
           href="mailto:lauren.pane1@googlemail.com"

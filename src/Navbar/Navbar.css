@@ -9,7 +9,7 @@
   height: 4em;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr 8fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 6fr 1fr 1fr;
   grid-gap: 5px;
   z-index: 9999;
 }
@@ -39,7 +39,8 @@ a:hover {
 
 .emailMe,
 .linkedInMe,
-.gitHubMe {
+.gitHubMe,
+.home {
   width: 40px;
   height: auto;
   margin-left: 15px;
