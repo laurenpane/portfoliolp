@@ -2,14 +2,15 @@
   display: grid;
   grid-template-areas: "title", "caption", "kodflixLink", "home";
   text-align: center;
-  justify-content: center;
+  justify-items: center;
 }
 
 .kodflix .title {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 30px;
+  margin-top: 23%;
   grid-area: "title";
+  width: 20%;
 }
 
 .kodflixLink {
