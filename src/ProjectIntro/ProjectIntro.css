@@ -1,6 +1,6 @@
 .projectIntro {
   display: grid;
-  grid-template-areas: "title", "kodflix", "projects";
+  grid-template-areas: "title" "kodflix" "projects";
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -10,18 +10,19 @@
 .projectIntro .title {
   font-family: verdana;
   text-align: center;
-  grid-area: "title";
+  grid-area: title;
   width: 50%;
   border-bottom: 5px solid #2196f3;
   padding-bottom: 5px;
 }
 
 .projectIntro .kodflix {
-  grid-area: "kodflix";
+  grid-area: kodflix;
+  align-self: center;
 }
 
 .projectIntro .projects {
-  grid-area: "projects";
+  grid-area: projects;
   color: black;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,7 +34,7 @@
 }
 
 .projectIntro img {
-  width: 15%;
+  width: 20%;
   height: auto;
   padding: 10%;
 }

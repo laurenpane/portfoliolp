@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import kodflix from "../Imgs/Logos/netflix.png";
+import kodflixLogo from "../Imgs/Logos/netflix.png";
 import "./ProjectIntro.css";
 
 export default function ProjectIntro() {
@@ -14,7 +14,7 @@ export default function ProjectIntro() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={kodflix} alt="netflix logo" />
+          <img src={kodflixLogo} alt="netflix logo" />
         </a>
         <Link className="projects" to="/projects">
           Read about my projects

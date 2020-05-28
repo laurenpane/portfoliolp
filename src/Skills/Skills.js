@@ -9,7 +9,9 @@ import javascript from "../Imgs/Logos/js.png";
 export default function Skills() {
   return (
     <div className="skillsPage">
-      <h1 className="title">My skills</h1>
+      <div className="titleGrid">
+        <h1 className="title">My skills</h1>
+      </div>
       <div className="skills">
         <img className="javascript" src={javascript} alt="javascript" />
         <img className="react" src={react} alt="react" />

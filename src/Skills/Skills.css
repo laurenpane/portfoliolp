@@ -1,6 +1,7 @@
 .skillsPage {
   background-image: url(https://www.laporsa.com/11712-large_default/speckled-super-black-polished-porcelain-60x60cm-.jpg);
   background-color: grey;
+  margin-top: 50px;
 }
 
 .skillsPage .skills {
@@ -19,10 +20,15 @@
   height: auto;
 }
 
-.skillsPage .title {
+.skillsPage .titleGrid {
+  display: grid;
+  justify-items: center;
+}
+
+.skillsPage .titleGrid .title {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 50%;
+  width: 18%;
   padding: 15px;
   color: white;
   border-bottom: 5px solid #2196f3;
