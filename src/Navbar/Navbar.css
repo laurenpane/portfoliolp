@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr 1fr 6fr 1fr 1fr;
   grid-gap: 5px;
   z-index: 9999;
+  align-items: center;
 }
 
 a {
@@ -61,19 +62,21 @@ a:hover {
 
 @media only screen and (max-width: 590px) {
   .navbar {
-    height: 6em;
+    height: 4em;
   }
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 510px) {
   .laurenPane {
-    font-size: 18px;
+    font-size: 16px;
+    align-self: center;
   }
 }
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 480px) {
   .laurenPane {
-    font-size: 15px;
+    font-size: 14px;
+    height: 5%;
   }
 }
 

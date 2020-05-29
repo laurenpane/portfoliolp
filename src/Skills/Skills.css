@@ -44,8 +44,8 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 600px) {
   .skillsPage .skills {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }

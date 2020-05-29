@@ -15,24 +15,25 @@ export default function Interests() {
         <p className="education">
           Hi, I’m Lauren, a Junior Full-Stack Software Developer based in
           London. I graduated from the University of Warwick in 2018 with a
-          degree in German, and my passion for language-learning has since
-          extended into those of the programming variety.
+          degree in German, and my interest in languages has since extended into
+          those of the programming variety.
           <br />
           <br />
-          After spending a year practising JavaScript in my free time, I am now
-          enrolled on Kodiri’s intensive Bootcamp, learning JavaScript, HTML and
-          CSS as well as ReactJs and NodeJs.
+          After spending some time practising JavaScript in my free time, I am
+          now enrolled on Kodiri’s intensive Bootcamp, learning JavaScript, HTML
+          and CSS as well as ReactJs and NodeJs.
         </p>
         <p className="hobbies">
-          I’m looking to work for a company that would benefit from an ambitious
-          Junior Developer, and who would support a fast and dedicated learner
-          grow and expand their skills.
+          I’m looking to work for a company who would benefit from taking on an
+          enthusiastic, ambitious Junior Developer, and who would support a fast
+          and dedicated learner continue to expand their skills and grow within
+          the team.
           <br />
           <br />
           Aside from programming, I enjoy spending my time getting active
           outdoors, and socialising with friends and family. I love travelling,
           particularly when it involves some sort of adventure, particularly
-          mountain-climbing.
+          mountain-climbing!
         </p>
         <img className="bali" src={bali} alt="mountain-climbing" />
         <Link className="link" to="/">

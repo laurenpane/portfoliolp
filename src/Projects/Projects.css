@@ -1,14 +1,14 @@
 .title-grid .projectsTitle {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 20%;
+  width: 25%;
   border-bottom: 5px solid #2196f3;
 }
 
 .title-grid {
   display: grid;
   justify-items: center;
-  margin-top: 6%;
+  margin-top: 50px;
 }
 
 .kodflix {
@@ -88,5 +88,10 @@
 
   .kodflix .kHeader {
     width: 70%;
+  }
+
+  .title-grid .projectsTitle {
+    width: 60%;
+    margin-top: 60px;
   }
 }

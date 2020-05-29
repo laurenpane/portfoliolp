@@ -11,6 +11,8 @@
   opacity: 0.95;
   grid-gap: 10px;
   align-items: center;
+  justify-items: center;
+  margin-top: 50px;
 }
 
 .interests .title {
@@ -26,6 +28,7 @@
   padding: 20px;
   background-color: white;
   border-radius: 30%;
+  text-align: justify;
 }
 
 .interests .hobbies {
@@ -33,6 +36,7 @@
   padding: 20px;
   background-color: white;
   border-radius: 30%;
+  text-align: justify;
 }
 
 .interests .grad {
@@ -90,6 +94,9 @@
 @media only screen and (max-width: 800px) {
   .interests .info {
     font-size: 20px;
+  }
+  .interests {
+    grid-template-areas: "title" "grad" "education" "bali" "hobbies" "link";
   }
 }
 
