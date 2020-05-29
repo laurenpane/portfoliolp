@@ -6,24 +6,32 @@ import kodflix from "../Imgs/Logos/netflix.png";
 
 export default function Projects() {
   return (
-    <div className="projects">
+    <div>
       <Navbar />
       <div className="title-grid">
-        <h1 className="title">My projects</h1>
+        <h1 className="projectsTitle">My projects</h1>
       </div>
       <div className="kodflix">
-        <h2 className="kodflix-title">Kodflix</h2>
-        <img className="kodflix-logo" src={kodflix} alt="netflix logo" />
+        <h2 className="kHeader">Kodflix</h2>
+        <img className="kLogo" src={kodflix} alt="netflix logo" />
         <a
-          className="kodflixLink"
+          className="kLink"
           href="https://kodflix-lpane.herokuapp.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
           Check out Kodflix
         </a>
-        <h2 className="kodflixCaption">A fkfkdkfdd based on kjkj</h2>
-        <Link className="home" to="/">
+        <p className="kCaption">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum
+        </p>
+        <Link className="kHome" to="/">
           Back to homepage
         </Link>
       </div>

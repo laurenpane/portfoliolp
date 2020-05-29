@@ -1,24 +1,10 @@
-.lauren2 {
-  width: 80%;
-  height: auto;
-  opacity: 0.8;
-  padding-top: 50px;
-  align-self: center;
-  padding: 15px;
-  border-radius: 50%;
-}
-
 .aboutMe {
   display: grid;
   grid-template-areas:
     "lauren2 description description"
     "lauren2 more more";
   background-color: white;
-}
-
-.aboutMe .lauren2 {
-  grid-area: lauren2;
-  opacity: 0.95;
+  justify-items: center;
 }
 
 .aboutMe .description {
@@ -28,6 +14,17 @@
   text-align: center;
   align-self: center;
   padding: 30px;
+}
+
+.aboutMe .lauren2 {
+  width: 70%;
+  height: auto;
+  opacity: 0.95;
+  padding-top: 50px;
+  align-self: center;
+  padding: 15px;
+  border-radius: 50%;
+  grid-area: lauren2;
 }
 
 .aboutMe .more {
@@ -50,4 +47,16 @@
 
 .more:hover {
   color: #2196f3;
+}
+
+@media only screen and (max-width: 950px) {
+  .aboutMe {
+    grid-template-areas:
+      "lauren2" "description"
+      "more";
+  }
+
+  .aboutMe .lauren2 {
+    width: 30%;
+  }
 }

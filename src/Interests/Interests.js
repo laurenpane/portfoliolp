@@ -1,6 +1,6 @@
 import React from "react";
-import "./Interests.css";
 import { Link } from "react-router-dom";
+import "./Interests.css";
 import Navbar from "../Navbar/Navbar.js";
 import grad from "../Imgs/grad.JPG";
 import bali from "../Imgs/bali.JPG";
@@ -13,7 +13,7 @@ export default function Interests() {
         <h1 className="title">About me</h1>
         <img className="grad" src={grad} alt="graduation" />
         <p className="education">
-          Hi, I’m Lauren, a Junior Full Stack Software Developer based in
+          Hi, I’m Lauren, a Junior Full-Stack Software Developer based in
           London. I graduated from the University of Warwick in 2018 with a
           degree in German, and my passion for language-learning has since
           extended into those of the programming variety.

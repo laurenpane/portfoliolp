@@ -29,9 +29,7 @@ export default class Navbar extends Component {
         >
           <img src={linkedInMe} className="linkedInMe" alt="linkedIn" />
         </a>
-        <h2 className="laurenPane">
-          Lauren Pane - Junior Full-Stack Software Developer
-        </h2>
+        <h2 className="laurenPane">Lauren Pane - Full-Stack Developer</h2>
         <a
           className="gitHubMe"
           href="https://github.com/laurenpane"

@@ -7,14 +7,14 @@ export default function ProjectIntro() {
   return (
     <div>
       <div className="projectIntro">
-        <h1 className="title">My projects</h1>
+        <h1 className="pLinkTitle">My projects</h1>
         <a
           href="https://kodflix-lpane.herokuapp.com/"
-          className="kodflix"
+          className="kodflixLink"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={kodflixLogo} alt="netflix logo" />
+          <img src={kodflixLogo} className="kLinkImg" alt="netflix logo" />
         </a>
         <Link className="projects" to="/projects">
           Read about my projects

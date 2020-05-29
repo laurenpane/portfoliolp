@@ -1,49 +1,92 @@
-.projects .title-grid .title {
+.title-grid .projectsTitle {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 5%;
   width: 20%;
+  border-bottom: 5px solid #2196f3;
 }
 
-.projects .title-grid {
+.title-grid {
   display: grid;
   justify-items: center;
+  margin-top: 6%;
 }
 
-.projects .kodflix {
+.kodflix {
   display: grid;
   text-align: center;
   justify-items: center;
   justify-content: center;
   grid-template-areas:
-    "title title title title title"
-    "logo logo k-caption k-caption k-caption"
-    "logo logo k-caption k-caption k-caption"
-    "logo logo link link link";
+    "kHeader kHeader kHeader kHeader kHeader"
+    "logo kCaption kCaption kCaption kCaption"
+    "logo kCaption kCaption kCaption kCaption"
+    "kLink kCaption kCaption kCaption kCaption"
+    "home home home home home";
+  margin: 2% 5%;
+  grid-gap: 5%;
 }
 
-.kodflix-title {
+.kodflix .kHeader {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 5%;
-  grid-area: title;
+  grid-area: kHeader;
   width: 20%;
 }
 
-.projects .kodflix .kodflixLink {
-  grid-area: link;
-}
-
-.projects .kodflix .kodflixCaption {
-  grid-area: k-caption;
-}
-
-.projects .kodflix .home {
-  grid-area: home;
-}
-
-.projects .kodflix .kodflix-logo {
+.kodflix .kLogo {
   grid-area: logo;
-  width: 10%;
+  width: 70%;
   height: auto;
+}
+
+.kodflix .kLink {
+  grid-area: kLink;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+.kodflix .kLink:hover {
+  color: #2196f3;
+}
+
+.kodflix .kHome:hover {
+  color: #2196f3;
+}
+
+.kodflix .kCaption {
+  grid-area: kCaption;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  text-align: justify;
+  font-size: 120%;
+}
+
+.kodflix .kHome {
+  grid-area: home;
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+
+@media only screen and (max-width: 950px) {
+  .kodflix {
+    grid-template-areas:
+      "kHeader"
+      "logo"
+      "kCaption"
+      "kLink"
+      "home";
+  }
+
+  .kodflix .kLogo {
+    width: 40%;
+  }
+
+  .kodflix .kHeader {
+    width: 70%;
+  }
 }

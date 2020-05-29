@@ -8,7 +8,7 @@ export default function AboutMe() {
     <div className="aboutMe">
       <img className="lauren2" alt="lauren2" src={lauren2} />
       <h1 className="description">
-        London based Full Stack Junior Developer, proficient in JavaScript,
+        London-based Full-Stack Junior Developer, proficient in JavaScript,
         ReactJS, NodeJS, HTML5 and CSS3
       </h1>
       <Link className="more" to="/interests">
