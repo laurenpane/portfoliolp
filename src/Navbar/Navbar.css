@@ -13,6 +13,7 @@
   grid-gap: 5px;
   z-index: 9999;
   align-items: center;
+  border-bottom: 3px solid #2196f3;
 }
 
 a {
