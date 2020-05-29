@@ -63,12 +63,14 @@
   font-weight: bold;
   grid-area: title;
 }
+
 .link {
   text-align: center;
   font-weight: bold;
   grid-area: link;
   color: black;
   padding-bottom: 30px;
+  font-size: 20px;
 }
 
 .link:hover {
@@ -81,14 +83,6 @@
   text-align: center;
   padding: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.flatIcon {
-  font-size: 15px;
-  color: black;
-  text-align: center;
-  align-self: center;
-  text-decoration: none;
 }
 
 @media only screen and (max-width: 800px) {
