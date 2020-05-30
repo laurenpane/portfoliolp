@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import "./Projects.css";
 import Navbar from "../Navbar/Navbar.js";
 import kodflix from "../Imgs/Logos/netflix.png";
+import kodflixHomeScreenshot from "../Imgs/kodflixHomeScreenshot.png";
+import kodflixDetailsScreenshot from "../Imgs/kodflixDetailsScreenshot.png";
 
 export default function Projects() {
   return (
@@ -14,23 +16,30 @@ export default function Projects() {
       <div className="kodflix">
         <h2 className="kHeader">Kodflix</h2>
         <img className="kLogo" src={kodflix} alt="netflix logo" />
-        <a
-          className="kLink"
-          href="https://kodflix-lpane.herokuapp.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check out Kodflix
-        </a>
-        <p className="kCaption">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
-        </p>
+        <div className="kCaption">
+          <p>
+            Full-stack web application simulating Netflix, using ReactJs, CSS,
+            JavaScript and NodeJs, compatible with desktop and mobile.
+          </p>
+          <a
+            className="kLink"
+            href="https://kodflix-lpane.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Check out Kodflix
+          </a>
+        </div>
+        <img
+          className="kodflixHomeScreenshot"
+          src={kodflixHomeScreenshot}
+          alt="kodflixHome"
+        />
+        <img
+          className="kodflixDetailsScreenshot"
+          src={kodflixDetailsScreenshot}
+          alt="kodflixDetails"
+        />
         <Link className="kHome" to="/">
           Back to homepage
         </Link>
