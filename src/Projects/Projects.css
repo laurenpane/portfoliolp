@@ -2,17 +2,17 @@ body {
   background-color: black;
 }
 
-.title-grid .projectsTitle {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 25%;
-  margin-top: 150px;
-  font-size: 35px;
-}
-
 .title-grid {
   display: grid;
   justify-items: center;
+  margin-top: 5%;
+}
+
+.title-grid .projectsTitle {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  width: 25%;
+  font-size: 35px;
 }
 
 .kodflix {
@@ -46,7 +46,7 @@ body {
 
 .kodflix .kHeader {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-size: 200%;
   margin-top: 5%;
   grid-area: kHeader;
@@ -61,7 +61,7 @@ body {
 
 .kodflix .kLink {
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
   color: black;
   font-size: 20px;
   color: #2196f3;
@@ -79,7 +79,7 @@ body {
 
 .kodflix .kCaption {
   grid-area: kCaption;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-style: italic;
   text-align: center;
   font-size: 140%;
@@ -93,7 +93,7 @@ body {
   grid-area: home;
   text-align: center;
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
   color: black;
   margin-bottom: 50px;
   font-size: 20px;

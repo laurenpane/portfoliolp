@@ -16,7 +16,7 @@ export default function ProjectIntro() {
         >
           <img src={kodflixLogo} className="kLinkImg" alt="netflix logo" />
         </a>
-        <Link className="projects" to="/projects">
+        <Link className="more-projects" to="/projects">
           Read about my projects
         </Link>
       </div>

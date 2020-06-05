@@ -1,35 +1,38 @@
 .skillsPage {
   background-image: url(https://www.laporsa.com/11712-large_default/speckled-super-black-polished-porcelain-60x60cm-.jpg);
   background-color: grey;
-  margin-top: 50px;
+  margin-top: 5%;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  border: 3px solid #2196f3;
 }
 
-.skillsPage .skills {
+.skillsPage .skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 4%;
+  padding: 2%;
+  align-items: center;
   justify-items: center;
   justify-content: center;
-  align-content: center;
-  grid-gap: 20px;
-  padding: 2%;
-  width: 100%;
 }
 
-.skillsPage .skills img {
+.skills-item-img {
   width: 40%;
   height: auto;
 }
 
-.skillsPage .titleGrid {
+.skills-titleGrid {
   display: grid;
   justify-items: center;
 }
 
-.skillsPage .titleGrid .title {
+.skills-title {
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
   width: 18%;
-  padding: 15px;
+  padding: 1%;
   color: white;
   border-bottom: 5px solid #2196f3;
 }
@@ -39,13 +42,13 @@
     width: 80%;
   }
 
-  .skillsPage .skills {
+  .skillsPage .skills-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .skillsPage .skills {
+  .skillsPage .skills-container {
     grid-template-columns: 1fr;
   }
 }

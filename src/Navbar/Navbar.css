@@ -2,87 +2,42 @@
   background-color: white;
   opacity: 0.95;
   width: 100%;
+  height: auto;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  height: 4em;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 6fr 1fr 1fr;
-  grid-gap: 5px;
-  z-index: 9999;
+  grid-template-columns: 1fr 3fr 3fr 3fr 1fr 1fr;
   align-items: center;
+  justify-items: center;
+  grid-gap: 3%;
+  z-index: 9999;
   border-bottom: 3px solid #2196f3;
 }
 
-a {
-  float: left;
+.navbar-item {
+  transition: 0.2s ease;
+  height: auto;
+  padding: 3% 7%;
   text-decoration: none;
-  align-self: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: bold;
-  padding: 0;
+  font-size: 110%;
 }
 
-a .email {
-  grid-area: email;
-}
-
-a .linkedIn {
-  grid-area: linkedIn;
-}
-
-a:hover {
-  background-color: white;
-  color: black;
-  opacity: 1;
-}
-
-.emailMe,
-.linkedInMe,
-.gitHubMe,
-.home {
-  width: 40px;
+.navbar img {
+  width: 60%;
   height: auto;
-  margin-left: 15px;
-  margin-right: 15px;
+}
+
+.navbar-item:hover {
+  transform: scale(1.2);
 }
 
 .laurenPane {
   color: black;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: "Tajawal", sans-serif;
   text-align: center;
-}
-
-@media only screen and (max-width: 1090px) {
-  .laurenPane {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 590px) {
-  .navbar {
-    height: 4em;
-  }
-}
-
-@media only screen and (max-width: 510px) {
-  .laurenPane {
-    font-size: 16px;
-    align-self: center;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .laurenPane {
-    font-size: 14px;
-    height: 5%;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .laurenPane {
-    font-size: 12px;
-  }
 }

@@ -1,6 +1,6 @@
 .projectIntro {
   display: grid;
-  grid-template-areas: "title" "kodflixLink" "projects";
+  grid-template-areas: "title" "kodflixLink" "more-projects";
   justify-content: center;
   justify-items: center;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 
 .projectIntro .pLinkTitle {
-  font-family: verdana;
+  font-family: "Tajawal", sans-serif;
   text-align: center;
   grid-area: title;
   width: 50%;
@@ -20,21 +20,28 @@
 
 .projectIntro .kodflixLink {
   grid-area: kodflixLink;
-  justify-self: center;
 }
 
 .projectIntro .kodflixLink .kLinkImg {
+  transition: 0.2s ease;
   width: 30%;
+  grid-area: kodflixLink;
 }
 
-.projectIntro .projects {
-  grid-area: projects;
+.projectIntro .kLinkImg:hover {
+  transform: scale(1.2);
+}
+
+.projectIntro .more-projects {
+  grid-area: more-projects;
   color: rgb(39, 39, 39);
   font-weight: bold;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
+  font-family: "Tajawal", sans-serif;
+  font-size: 130%;
+  text-decoration: none;
+  font-style: italic;
 }
 
-.projectIntro .projects:hover {
+.projectIntro .more-projects:hover {
   color: #2196f3;
 }

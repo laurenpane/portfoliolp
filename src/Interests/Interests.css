@@ -12,15 +12,14 @@
   grid-gap: 10px;
   align-items: center;
   justify-items: center;
-  margin-top: 50px;
+  margin-top: 5%;
 }
 
 .interests .title {
   font-size: 35px;
   font-weight: bold;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 8%;
+  font-family: "Tajawal", sans-serif;
 }
 
 .interests .education {
@@ -55,7 +54,7 @@
 
 .interests {
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 .interests .title {
@@ -71,6 +70,7 @@
   color: black;
   padding-bottom: 30px;
   font-size: 20px;
+  font-family: "Tajawal", sans-serif;
 }
 
 .link:hover {
@@ -82,7 +82,7 @@
   color: black;
   text-align: center;
   padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
 }
 
 @media only screen and (max-width: 800px) {
