@@ -7,7 +7,7 @@
     "education education education grad grad"
     "bali bali hobbies hobbies hobbies"
     "bali bali hobbies hobbies hobbies"
-    "link link link link link";
+    "interests-link interests-link interests-link interests-link interests-link";
   opacity: 0.95;
   grid-gap: 10px;
   align-items: center;
@@ -63,17 +63,19 @@
   grid-area: title;
 }
 
-.link {
+.interests-link {
   text-align: center;
   font-weight: bold;
-  grid-area: link;
+  grid-area: interests-link;
   color: black;
   padding-bottom: 30px;
-  font-size: 20px;
   font-family: "Tajawal", sans-serif;
+  font-size: 100%;
+  text-decoration: none;
+  font-style: italic;
 }
 
-.link:hover {
+.interests-link:hover {
   color: #2196f3;
 }
 
@@ -90,7 +92,7 @@
     font-size: 20px;
   }
   .interests {
-    grid-template-areas: "title" "grad" "education" "bali" "hobbies" "link";
+    grid-template-areas: "title" "grad" "education" "bali" "hobbies" "interests-link";
   }
 }
 

@@ -5,9 +5,11 @@ import "./ProjectIntro.css";
 
 export default function ProjectIntro() {
   return (
-    <div>
+    <div data-aos="fade">
       <div className="projectIntro">
-        <h1 className="pLinkTitle">My projects</h1>
+        <h1 className="pLinkTitle" data-aos="fade in" data-aos-delay="1000">
+          My projects
+        </h1>
         <a
           href="https://kodflix-lpane.herokuapp.com/"
           className="kodflixLink"

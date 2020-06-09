@@ -10,6 +10,10 @@ export default function Interests() {
     <div>
       <Navbar />
       <div className="interests">
+        <link
+          href="https://fonts.googleapis.com/css2?family=Tajawal:wght@500&display=swap"
+          rel="stylesheet"
+        />
         <h1 className="title">About me</h1>
         <img className="grad" src={grad} alt="graduation" />
         <p className="education">
@@ -36,7 +40,7 @@ export default function Interests() {
           mountain-climbing!
         </p>
         <img className="bali" src={bali} alt="mountain-climbing" />
-        <Link className="link" to="/">
+        <Link className="interests-link" to="/">
           Back to homepage
         </Link>
       </div>

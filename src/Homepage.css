@@ -3,7 +3,7 @@
   background-color: white;
   margin-top: 5%;
   position: relative;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 .container .lauren-home-overlay {
@@ -16,5 +16,5 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   font-family: "Tajawal", sans-serif;
-  text-shadow: white;
+  text-shadow: black;
 }

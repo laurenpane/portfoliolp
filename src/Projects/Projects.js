@@ -2,9 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Projects.css";
 import Navbar from "../Navbar/Navbar.js";
-import kodflix from "../Imgs/Logos/netflix.png";
-import kodflixHomeScreenshot from "../Imgs/kodflixHomeScreenshot.png";
-import kodflixDetailsScreenshot from "../Imgs/kodflixDetailsScreenshot.png";
+import kodflixHomeScreenshot from "../Imgs/Logos/netflix.png";
 
 export default function Projects() {
   return (
@@ -15,7 +13,11 @@ export default function Projects() {
       </div>
       <div className="kodflix">
         <h2 className="kHeader">Kodflix</h2>
-        <img className="kLogo" src={kodflix} alt="netflix logo" />
+        <img
+          className="kodflixHome"
+          src={kodflixHomeScreenshot}
+          alt="kodflixHome"
+        />
         <div className="kCaption">
           <p>
             Full-stack web application simulating Netflix, using ReactJs, CSS,
@@ -30,17 +32,9 @@ export default function Projects() {
             Check out Kodflix
           </a>
         </div>
-        <img
-          className="kodflixHomeScreenshot"
-          src={kodflixHomeScreenshot}
-          alt="kodflixHome"
-        />
-        <img
-          className="kodflixDetailsScreenshot"
-          src={kodflixDetailsScreenshot}
-          alt="kodflixDetails"
-        />
-        <Link className="kHome" to="/">
+      </div>
+      <div className="kHomeContainer">
+        <Link className="kHome" to="/" data-aos="fade">
           Back to homepage
         </Link>
       </div>

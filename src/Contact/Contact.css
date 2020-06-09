@@ -1,0 +1,17 @@
+.contact {
+  margin-top: 5%;
+}
+
+.contact-title-container {
+  display: grid;
+  justify-items: center;
+}
+
+.contact-title-item {
+  text-align: center;
+  font-family: "Tajawal", sans-serif;
+  width: 18%;
+  padding: 1%;
+  color: black;
+  border-bottom: 5px solid #2196f3;
+}

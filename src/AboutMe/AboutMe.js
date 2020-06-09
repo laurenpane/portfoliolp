@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export default function AboutMe() {
   return (
-    <div className="aboutMe">
+    <div className="aboutMe" data-aos="fade in" data-aos-delay="500">
       <img className="lauren2" alt="lauren2" src={lauren2} />
       <h1 className="description">
         London-based Full-Stack Junior Developer, proficient in JavaScript,

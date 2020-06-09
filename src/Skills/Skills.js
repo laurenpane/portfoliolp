@@ -8,7 +8,7 @@ import javascript from "../Imgs/Logos/js.png";
 
 export default function Skills() {
   return (
-    <div className="skillsPage">
+    <div className="skillsPage" data-aos="fade">
       <div className="skills-titleGrid">
         <h1 className="skills-title">My skills</h1>
       </div>
