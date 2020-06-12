@@ -1,0 +1,42 @@
+.menu-grid {
+  display: none;
+}
+
+.menu-button {
+  width: 30%;
+  text-decoration: none;
+}
+
+.menu-grid.is-open {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (min-width: 650px) {
+  .menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    align-items: center;
+    justify-items: space-evenly;
+    grid-gap: 10%;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .navbar-item {
+    transition: 0.2s ease;
+    color: black;
+    height: auto;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 200%;
+    font-family: "Tajawal", sans-serif;
+    width: 100%;
+  }
+}

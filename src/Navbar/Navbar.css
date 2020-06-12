@@ -9,9 +9,9 @@
   right: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 3fr 3fr 3fr 1fr 1fr;
+  grid-template-columns: 1fr 9fr 1fr 1fr;
   align-items: center;
-  justify-items: center;
+  justify-items: stretch;
   grid-gap: 3%;
   z-index: 9999;
   border-bottom: 3px solid #2196f3;
@@ -23,7 +23,7 @@
   height: auto;
   padding: 3% 10%;
   text-decoration: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Tajawal", sans-serif;
   font-style: bold;
   font-size: 110%;
 }
@@ -41,4 +41,10 @@
   color: black;
   font-family: "Tajawal", sans-serif;
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

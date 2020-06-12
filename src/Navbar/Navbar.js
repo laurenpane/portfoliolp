@@ -4,6 +4,7 @@ import linkedInMe from "../Imgs/Logos/linkedInMe.png";
 import gitHubMe from "../Imgs/Logos/githubMe.png";
 import home from "../Imgs/Logos/home.png";
 import { Link } from "react-router-dom";
+import Menu from "./Menu/Menu.js";
 
 export default class Navbar extends Component {
   render() {
@@ -12,13 +13,7 @@ export default class Navbar extends Component {
         <Link className="navbar-item" to="/">
           <img src={home} alt="home" className="home" />
         </Link>
-        <Link className="navbar-item" to="/projects">
-          Projects
-        </Link>
-        <Link className="navbar-item" to="/interests">
-          About me
-        </Link>
-        <p className="navbar-item">Contact</p>
+        <Menu />
         <a
           className="navbar-item"
           href="https://uk.linkedin.com/in/lauren-pane-773169169"
