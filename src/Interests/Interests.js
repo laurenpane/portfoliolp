@@ -27,7 +27,7 @@ export default function Interests() {
           now enrolled on Kodiri’s intensive Bootcamp, learning JavaScript, HTML
           and CSS as well as ReactJs and NodeJs.
         </p>
-        <p className="hobbies">
+        <p className="hobbies" data-aos="fade in">
           I’m looking to work for a company who would benefit from taking on an
           enthusiastic, ambitious Junior Developer, and who would support a fast
           and dedicated learner continue to expand their skills and grow within
@@ -39,7 +39,12 @@ export default function Interests() {
           particularly when it involves some sort of adventure, particularly
           mountain-climbing!
         </p>
-        <img className="bali" src={bali} alt="mountain-climbing" />
+        <img
+          className="bali"
+          src={bali}
+          alt="mountain-climbing"
+          data-aos="fade in"
+        />
         <Link className="interests-link" to="/">
           Back to homepage
         </Link>
