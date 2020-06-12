@@ -7,7 +7,7 @@ export default function ProjectIntro() {
   return (
     <div data-aos="fade">
       <div className="projectIntro">
-        <h1 className="pLinkTitle" data-aos="fade in" data-aos-delay="1000">
+        <h1 className="pLinkTitle" data-aos="fade in">
           My projects
         </h1>
         <a
