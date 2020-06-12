@@ -12,8 +12,12 @@ export default class Navbar extends Component {
         <Link className="navbar-item" to="/">
           <img src={home} alt="home" className="home" />
         </Link>
-        <p className="navbar-item">Projects</p>
-        <p className="navbar-item">About me</p>
+        <Link className="navbar-item" to="/projects">
+          Projects
+        </Link>
+        <Link className="navbar-item" to="/interests">
+          About me
+        </Link>
         <p className="navbar-item">Contact</p>
         <a
           className="navbar-item"

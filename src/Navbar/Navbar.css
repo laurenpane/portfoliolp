@@ -19,6 +19,7 @@
 
 .navbar-item {
   transition: 0.2s ease;
+  color: black;
   height: auto;
   padding: 3% 10%;
   text-decoration: none;
