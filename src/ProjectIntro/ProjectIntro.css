@@ -1,47 +1,62 @@
 .projectIntro {
   display: grid;
-  grid-template-areas: "title" "kodflixLink" "more-projects";
+  grid-template-areas: "title title" "kodflixLink carrateLink" "more-projects more-projects";
   justify-content: center;
   justify-items: center;
   align-items: center;
-  padding: 20px;
-  grid-gap: 30px;
-  margin-top: 50px;
+  padding: 3%;
+  grid-gap: 6%;
+  margin-top: 4%;
+  box-sizing: border-box;
 }
 
-.projectIntro .pLinkTitle {
+.pLinkTitle {
   font-family: "Tajawal", sans-serif;
   text-align: center;
   grid-area: title;
-  width: 50%;
-  border-bottom: 5px solid #2196f3;
-  padding-bottom: 5px;
-}
-
-.projectIntro .kodflixLink {
-  grid-area: kodflixLink;
-}
-
-.projectIntro .kodflixLink .kLinkImg {
-  transition: 0.2s ease;
   width: 30%;
-  grid-area: kodflixLink;
+  border-bottom: 5px solid #2196f3;
 }
 
-.projectIntro .kLinkImg:hover {
+.kodflixLink {
+  grid-area: kodflixLink;
+  display: grid;
+  width: 40%;
+}
+
+.carrateLink {
+  grid-area: carrateLink;
+  display: grid;
+  width: 40%;
+}
+
+.cLinkImg {
+  transition: 0.2s ease;
+  width: 100%;
+  height: auto;
+  justify-self: flex-start;
+}
+
+.kodflixLink .kLinkLetter {
+  width: 100%;
+  height: auto;
+  justify-self: flex-end;
+}
+
+.kLinkLetter:hover,
+.cLinkImg:hover {
   transform: scale(1.2);
 }
 
-.projectIntro .more-projects {
+.more-projects {
   grid-area: more-projects;
   color: rgb(39, 39, 39);
   font-weight: bold;
   font-family: "Tajawal", sans-serif;
-  font-size: 130%;
   text-decoration: none;
   font-style: italic;
 }
 
-.projectIntro .more-projects:hover {
+.more-projects:hover {
   color: #2196f3;
 }

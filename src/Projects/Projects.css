@@ -23,9 +23,10 @@ body {
   justify-content: center;
   align-items: center;
   grid-template-areas:
-    "homeScreen homeScreen kHeader kHeader kHeader kHeader"
-    "kCaption kCaption kCaption kCaption kCaption kCaption";
-  grid-gap: 5%;
+    "kHeader kHeader kHeader kHeader"
+    "homeScreen homeScreen kCaption kCaption"
+    "homeScreen homeScreen kodLink kodLink";
+  grid-gap: 3%;
   padding: 3%;
   border-bottom: 1px solid black;
 }
@@ -34,15 +35,17 @@ body {
   text-align: center;
   font-family: "Tajawal", sans-serif;
   font-size: 200%;
-  justify-self: flex-start;
+  justify-self: center;
   grid-area: kHeader;
   width: 20%;
   color: red;
+  text-shadow: black;
 }
 
 .kodflix .kLink {
   font-weight: bold;
   font-family: "Tajawal", sans-serif;
+  grid-area: kodLink;
   color: black;
   font-size: 20px;
   text-decoration: none;
@@ -83,8 +86,9 @@ body {
   text-decoration: none;
 }
 
-.kodflix img .kodflixHome {
+.kodflix .kodflixHome {
   grid-area: homeScreen;
+  width: 30%;
 }
 
 @media only screen and (max-width: 950px) {
