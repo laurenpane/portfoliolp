@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import kodflixLogo from "../Imgs/Logos/kodflix.JPG";
+import kodflixLogo from "../Imgs/Logos/kodflix.png";
 import carrateLogo from "../Imgs/carrate.jpg";
 import "./ProjectIntro.css";
 

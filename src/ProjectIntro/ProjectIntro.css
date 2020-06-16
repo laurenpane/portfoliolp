@@ -5,7 +5,7 @@
   justify-items: center;
   align-items: center;
   padding: 3%;
-  grid-gap: 6%;
+  grid-gap: 10%;
   margin-top: 4%;
   box-sizing: border-box;
 }
@@ -20,27 +20,25 @@
 
 .kodflixLink {
   grid-area: kodflixLink;
-  display: grid;
   width: 40%;
+  justify-self: flex-end;
 }
 
 .carrateLink {
   grid-area: carrateLink;
-  display: grid;
   width: 40%;
+  justify-self: flex-start;
 }
 
 .cLinkImg {
   transition: 0.2s ease;
   width: 100%;
   height: auto;
-  justify-self: flex-start;
 }
 
 .kodflixLink .kLinkLetter {
   width: 100%;
   height: auto;
-  justify-self: flex-end;
 }
 
 .kLinkLetter:hover,
@@ -59,4 +57,10 @@
 
 .more-projects:hover {
   color: #2196f3;
+}
+
+@media only screen and (max-width: 900px) {
+  .pLinkTitle {
+    width: 80%;
+  }
 }

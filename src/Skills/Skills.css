@@ -1,26 +1,23 @@
 .skillsPage {
   background-color: black;
   margin-top: 5%;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
   border: 3px solid #2196f3;
 }
 
-.skillsPage .skills-container {
+.skills-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 4%;
   padding: 2%;
-  align-items: center;
-  justify-items: center;
-  justify-content: center;
   box-sizing: border-box;
 }
 
 .skills-item-img {
-  width: 40%;
-  height: auto;
+  width: 45%;
+}
+
+.skills-item {
+  justify-self: center;
 }
 
 .skills-titleGrid {
@@ -37,18 +34,28 @@
   border-bottom: 5px solid #2196f3;
 }
 
-@media only screen and (max-width: 950px) {
-  .skillsPage .titleGrid .title {
+@media only screen and (max-width: 900px) {
+  .skillsPage .titleGrid {
     width: 80%;
   }
-
-  .skillsPage .skills-container {
+  .skillsPage {
+    margin-top: 10%;
+  }
+  .skills-container {
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 10%;
+  }
+
+  .skills-title {
+    width: 70%;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
   .skillsPage .skills-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills-item-img {
+    width: 45%;
   }
 }
