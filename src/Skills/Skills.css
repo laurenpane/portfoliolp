@@ -12,12 +12,13 @@
   box-sizing: border-box;
 }
 
-.skills-item-img {
-  width: 45%;
+.skills-item {
+  display: grid;
+  justify-items: center;
 }
 
-.skills-item {
-  justify-self: center;
+.skills-item-img {
+  width: 45%;
 }
 
 .skills-titleGrid {
@@ -43,7 +44,8 @@
   }
   .skills-container {
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 10%;
+    padding-bottom: 8%;
+    grid-gap: 5%;
   }
 
   .skills-title {
@@ -52,7 +54,7 @@
 }
 
 @media only screen and (max-width: 550px) {
-  .skillsPage .skills-container {
+  .skills-container {
     grid-template-columns: 1fr 1fr;
   }
   .skills-item-img {
