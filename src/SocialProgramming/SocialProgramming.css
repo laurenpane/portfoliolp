@@ -17,6 +17,7 @@
 .social-programming-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4%;
   justify-items: center;
   width: 60%;
 }
@@ -24,13 +25,25 @@
 .social-programming-item {
   display: grid;
   justify-content: center;
+  font-family: "Tajawal", sans-serif;
+  text-align: justify;
+}
+
+.social-programming-item.title {
+  text-align: center;
 }
 
 .social-link-img {
-  width: 30%;
+  width: 35%;
   justify-self: center;
 }
 
 .social-link-img:hover {
   transform: scale(1.2);
+}
+
+@media only screen and (max-width: 900px) {
+  .social-programming-grid {
+    grid-template-columns: 1fr;
+  }
 }
