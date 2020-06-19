@@ -5,6 +5,7 @@ import lauren from "./Imgs/laurena.jpg";
 import Skills from "./Skills/Skills.js";
 import Contact from "./Contact/Contact.js";
 import ProjectIntro from "./ProjectIntro/ProjectIntro.js";
+import SocialProgramming from "./SocialProgramming/SocialProgramming.js";
 import "./Homepage.css";
 
 export default function Homepage() {
@@ -19,6 +20,7 @@ export default function Homepage() {
       <AboutMe />
       <Skills />
       <ProjectIntro />
+      <SocialProgramming />
       <Contact />
     </div>
   );

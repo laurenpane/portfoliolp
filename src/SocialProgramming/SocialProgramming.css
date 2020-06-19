@@ -1,0 +1,36 @@
+.social-programming {
+  margin-top: 5%;
+  display: grid;
+  justify-items: center;
+}
+
+.social-programming-title-grid {
+  display: grid;
+}
+
+.social-programming-title {
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+  border-bottom: 5px solid #2196f3;
+}
+
+.social-programming-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 60%;
+}
+
+.social-programming-item {
+  display: grid;
+  justify-content: center;
+}
+
+.social-link-img {
+  width: 30%;
+  justify-self: center;
+}
+
+.social-link-img:hover {
+  transform: scale(1.2);
+}
