@@ -1,7 +1,5 @@
 .skillsPage {
-  background-color: black;
   margin-top: 5%;
-  border: 3px solid #2196f3;
 }
 
 .skills-container {
@@ -18,7 +16,7 @@
 }
 
 .skills-item-img {
-  width: 45%;
+  width: 50%;
 }
 
 .skills-titleGrid {
@@ -29,9 +27,8 @@
 .skills-title {
   text-align: center;
   font-family: "Tajawal", sans-serif;
-  width: 18%;
-  padding: 1%;
-  color: white;
+  width: 10%;
+  color: black;
   border-bottom: 5px solid #2196f3;
 }
 
