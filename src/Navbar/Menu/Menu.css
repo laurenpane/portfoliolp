@@ -29,11 +29,15 @@
 
   .menu-button {
     display: none;
+    text-decoration: none;
+    text-decoration: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
   }
 
   .navbar-item {
     transition: 0.2s ease;
-    color: black;
+    color: white;
     height: auto;
     text-decoration: none;
     font-style: bold;

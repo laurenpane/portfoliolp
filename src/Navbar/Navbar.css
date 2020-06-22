@@ -1,31 +1,36 @@
 .navbar {
-  background-color: white;
+  background-color: black;
   opacity: 0.95;
   width: 100%;
-  height: 5em;
+  height: 4em;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 3fr 3fr 3fr;
-  align-items: center;
+  grid-template-columns: 1fr 9fr;
+  align-content: center;
   justify-items: stretch;
   grid-gap: 3%;
   z-index: 9999;
-  border-bottom: 3px solid #2196f3;
+  border-bottom: 2px solid white;
 }
 
 .navbar-item {
   transition: 0.2s ease;
-  color: black;
+  color: white;
   height: auto;
   padding: 3% 10%;
+  box-sizing: border-box;
   text-decoration: none;
   font-family: "Tajawal", sans-serif;
+  text-align: center;
   font-style: bold;
   font-size: 110%;
+  display: grid;
+  justify-items: center;
+  align-content: center;
 }
 
 .navbar img {
@@ -44,6 +49,6 @@
 
 @media (max-width: 600px) {
   .navbar {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
