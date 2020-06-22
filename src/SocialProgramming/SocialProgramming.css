@@ -14,9 +14,15 @@
   border-bottom: 5px solid #2196f3;
 }
 
-.social-programming-grid {
+.social-programming-main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.social-programming-grid {
+  display: grid;
+  grid-template-columns: 1fr;
   grid-gap: 4%;
   justify-items: center;
   width: 60%;
@@ -43,7 +49,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .social-programming-grid {
+  .social-programming-main-grid {
     grid-template-columns: 1fr;
   }
 }

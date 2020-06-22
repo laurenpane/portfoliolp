@@ -1,6 +1,6 @@
 import React from "react";
 import "./Skills.css";
-import react from "../Imgs/Logos/react.png";
+import react from "../Imgs/Logos/react.svg";
 import html from "../Imgs/Logos/html.png";
 import css from "../Imgs/Logos/css.png";
 import nodejs from "../Imgs/Logos/nodejs.png";
