@@ -1,10 +1,10 @@
 import React from "react";
 import "./Skills.css";
 import react from "../Imgs/Logos/react.svg";
-import html from "../Imgs/Logos/html.png";
-import css from "../Imgs/Logos/css.png";
-import nodejs from "../Imgs/Logos/nodejs.png";
-import javascript from "../Imgs/Logos/js.png";
+import html from "../Imgs/Logos/html.svg";
+import css from "../Imgs/Logos/css.svg";
+import nodejs from "../Imgs/Logos/nodejs.svg";
+import javascript from "../Imgs/Logos/js.svg";
 
 export default function Skills() {
   return (
