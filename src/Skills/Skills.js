@@ -15,18 +15,23 @@ export default function Skills() {
       <div className="skills-container">
         <div className="skills-item">
           <img className="skills-item-img" src={javascript} alt="javascript" />
+          <h3 className="skills-item-title">JavaScript</h3>
         </div>
         <div className="skills-item">
           <img className="skills-item-img" src={react} alt="react" />
+          <h3 className="skills-item-title">ReactJS</h3>
         </div>
         <div className="skills-item">
           <img className="skills-item-img" src={nodejs} alt="nodejs" />
+          <h3 className="skills-item-title">NodeJS</h3>
         </div>
         <div className="skills-item">
           <img className="skills-item-img" src={html} alt="html" />
+          <h3 className="skills-item-title">HTML5</h3>
         </div>
         <div className="skills-item">
           <img className="skills-item-img" src={css} alt="css" />
+          <h3 className="skills-item-title">CSS3</h3>
         </div>
       </div>
     </div>
