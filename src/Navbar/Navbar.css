@@ -13,8 +13,7 @@
   align-content: center;
   justify-items: stretch;
   grid-gap: 3%;
-  z-index: 9999;
-  border-bottom: 2px solid white;
+  z-index: 9998;
 }
 
 .navbar-item {
@@ -50,5 +49,8 @@
 @media (max-width: 600px) {
   .navbar {
     grid-template-columns: 1fr 1fr;
+  }
+  .navbar img {
+    width: 20%;
   }
 }

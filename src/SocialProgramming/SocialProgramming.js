@@ -22,7 +22,8 @@ export default function SocialProgramming() {
           </a>
           <p className="social-programming-item">
             During the Kodiri bootcamp, I researched and presented a workshop
-            about my chosen topic, Recursion.
+            about my chosen topic, Recursion, which was recorded and uploaded to
+            Kodiri's YouTube channel.
           </p>
         </div>
         <div className="social-programming-grid 2">
@@ -42,8 +43,10 @@ export default function SocialProgramming() {
             />
           </a>
           <p className="social-programming-item">
-            Participated in a live JavaScript and React coding event, where I
-            worked with a team, including Giacomo Sorbi, to solve questions.
+            Participated in a live JavaScript and React coding event, where
+            myself and a team of students and developers, including Giacomo
+            Sorbi, were livestreamed to a YouTube audience, solving questions
+            faced by partipicants.
           </p>
         </div>
         <div className="social-programming-grid 3">
@@ -63,8 +66,9 @@ export default function SocialProgramming() {
             />
           </a>
           <p className="social-programming-item">
-            Live React event, where I participated amongst a small group of
-            fellow Kodiri students.
+            Live React event, where myself and a small group of fellow Kodiri
+            students worked together with founder Ricardo Mallols to solve
+            problems that make up the challenge.
           </p>
         </div>
       </div>
