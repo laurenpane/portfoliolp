@@ -44,7 +44,8 @@
   color: black;
   font-size: 20px;
   text-decoration: none;
-  width: 100%;
+  border: none;
+  outline: none;
 }
 
 .kLink:hover {
@@ -86,7 +87,7 @@
 
 .carrate {
   display: grid;
-  grid-template-areas: "carrateImg carrateImg cHeader cHeader cHeader" "carrateImg carrateImg cCaption cCaption cCaption" "carrateImg carrateImg cCaption cCaption cCaption" "cTech cTech cTech cTech cTech";
+  grid-template-areas: "carrateImg carrateImg cHeader cHeader cHeader" "carrateImg carrateImg cCaption cCaption cCaption" "cLink cLink cCaption cCaption cCaption" "cTech cTech cTech cTech cTech";
   text-align: center;
   justify-items: center;
   justify-content: center;
@@ -123,7 +124,8 @@
   color: black;
   font-size: 20px;
   text-decoration: none;
-  width: 100%;
+  border: none;
+  outline: none;
 }
 
 .cTech {

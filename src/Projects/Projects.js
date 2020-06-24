@@ -35,14 +35,16 @@ export default function Projects() {
             with desktop and mobile. This project was built during the course of
             the Kodiri.com bootcamp, in May-June 2020.
           </p>
-          {/* <a
-            className="kLink"
-            href="https://kodflix-lpane.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Check out Kodflix
-          </a> */}
+          <button className="kLink">
+            <a
+              className="cLink"
+              href="https://kodflix-lpane.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check out Kodflix
+            </a>
+          </button>
           <div className="kTech">
             <div className="skills-item">
               <img
@@ -100,14 +102,16 @@ export default function Projects() {
             collaboratively during the course of the Kodiri.com bootcamp, in
             June 2020.
           </p>
-          {/* <a
-            className="cLink"
-            href="https://carrate.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Check out Carrate
-          </a> */}
+          <button className="cLink">
+            <a
+              className="cLink"
+              href="https://carrate.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Check out Carrate
+            </a>
+          </button>
           <div className="cTech">
             <div className="skills-item">
               <img
