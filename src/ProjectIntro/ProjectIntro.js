@@ -13,7 +13,7 @@ export default function ProjectIntro() {
       />
       <div className="projectIntro">
         <h1 className="pLinkTitle" data-aos="fade in">
-          My projects
+          <span> - </span>My projects<span> - </span>
         </h1>
         <a
           href="https://kodflix-lpane.herokuapp.com/"

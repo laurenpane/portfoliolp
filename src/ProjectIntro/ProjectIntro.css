@@ -6,8 +6,9 @@
   align-items: center;
   padding: 3%;
   grid-gap: 7%;
-  margin-top: 4%;
+  margin-top: 3%;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .pLinkTitle {
@@ -15,7 +16,6 @@
   text-align: center;
   grid-area: title;
   width: 30%;
-  border-bottom: 5px solid #2196f3;
 }
 
 .kodflixLink {

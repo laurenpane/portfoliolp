@@ -7,7 +7,9 @@ export default function Contact() {
   return (
     <div className="contact" data-aos="fade">
       <div className="contact-title-container">
-        <h1 className="contact-title-item">Contact me</h1>
+        <h1 className="contact-title-item">
+          <span> - </span>Contact me<span> - </span>
+        </h1>
         <div className="contact-grid">
           <a
             className="contact-item linked"

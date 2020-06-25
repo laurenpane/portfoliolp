@@ -7,7 +7,9 @@ export default function SocialProgramming() {
   return (
     <div className="social-programming" data-aos="fade">
       <div className="social-programming-title-grid">
-        <h1 className="social-programming-title">Social Programming</h1>
+        <h1 className="social-programming-title">
+          <span> - </span>Social Programming<span> - </span>
+        </h1>
       </div>
       <div className="social-programming-main-grid">
         <div className="social-programming-grid 1">

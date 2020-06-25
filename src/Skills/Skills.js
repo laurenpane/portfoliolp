@@ -10,7 +10,9 @@ export default function Skills() {
   return (
     <div className="skillsPage" data-aos="fade">
       <div className="skills-titleGrid">
-        <h1 className="skills-title">My skills</h1>
+        <h1 className="skills-title">
+          <span> - </span>My skills<span> - </span>
+        </h1>
       </div>
       <div className="skills-container">
         <div className="skills-item">

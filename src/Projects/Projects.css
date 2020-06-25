@@ -1,20 +1,31 @@
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .title-grid {
   display: grid;
   justify-items: center;
-  margin-top: 5%;
-  margin-bottom: 2%;
+  box-sizing: border-box;
+  margin-top: 4%;
+  align-content: flex-end;
 }
 
 .title-grid .projectsTitle {
   text-align: center;
   font-family: "Tajawal", sans-serif;
   width: 25%;
-  font-size: 200%;
+  font-size: 2em;
+  color: black;
 }
 
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
+  grid-gap: 4%;
+  margin: 1%;
+  box-sizing: border-box;
+  padding: 2%;
 }
 
 .kodflix {
@@ -23,8 +34,12 @@
   justify-items: center;
   justify-content: center;
   align-items: center;
-  grid-template-areas: "kodflixImg kodflixImg kHeader kHeader kHeader" "kodflixImg kodflixImg kCaption kCaption kCaption" "kLink kLink kCaption kCaption kCaption" "kTech kTech kTech kTech kTech";
-  padding: 3%;
+  grid-template-areas: "kHeader kHeader kHeader" "kodflixImg kCaption kCaption" "kTech kTech kTech" "kLink kLink kLink";
+  padding: 2%;
+  grid-gap: 0.5%;
+  border: 1px solid black;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 .kHeader {
@@ -32,20 +47,25 @@
   font-family: "Tajawal", sans-serif;
   justify-self: center;
   grid-area: kHeader;
-  width: 20%;
-  color: red;
   text-shadow: black;
+  background-color: white;
 }
 
 .kLink {
-  font-weight: bold;
-  font-family: "Tajawal", sans-serif;
   grid-area: kLink;
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
   border: none;
   outline: none;
+  background-color: white;
+  padding: 2%;
+  box-sizing: border-box;
+}
+
+.link {
+  font-weight: bold;
+  font-family: "Tajawal", sans-serif;
+  color: black;
+  font-size: 1em;
+  text-decoration: none;
 }
 
 .kLink:hover {
@@ -55,6 +75,7 @@
 
 .kTech {
   grid-area: kTech;
+  background-color: white;
 }
 
 .cTech,
@@ -87,13 +108,16 @@
 
 .carrate {
   display: grid;
-  grid-template-areas: "carrateImg carrateImg cHeader cHeader cHeader" "carrateImg carrateImg cCaption cCaption cCaption" "cLink cLink cCaption cCaption cCaption" "cTech cTech cTech cTech cTech";
+  grid-template-areas: "cHeader cHeader cHeader" "carrateImg cCaption cCaption" "cTech cTech cTech" "cLink cLink cLink";
   text-align: center;
   justify-items: center;
   justify-content: center;
   align-items: center;
-  grid-gap: 3%;
-  padding: 3%;
+  grid-gap: 0.5%;
+  padding: 2%;
+  border: 1px solid black;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 .cHeader {
@@ -101,9 +125,8 @@
   text-align: center;
   font-family: "Tajawal", sans-serif;
   justify-self: center;
-  width: 20%;
-  color: red;
   text-shadow: black;
+  background-color: white;
 }
 
 .cCaption {
@@ -119,17 +142,19 @@
 
 .cLink {
   grid-area: cLink;
-  font-weight: bold;
-  font-family: "Tajawal", sans-serif;
-  color: black;
-  font-size: 20px;
-  text-decoration: none;
   border: none;
   outline: none;
+  background-color: white;
 }
 
 .cTech {
   grid-area: cTech;
+  background-color: white;
+}
+
+.skills-item-title {
+  background-color: white;
+  font-size: 1em;
 }
 
 .carrateImg {
@@ -140,6 +165,7 @@
 .backHomeContainer {
   justify-items: center;
   display: grid;
+  color: black;
 }
 
 .backHome {
@@ -156,8 +182,13 @@
   width: 30%;
 }
 
+.skills-item {
+  background-color: white;
+}
+
 .skills-item-img.projects {
   width: 20%;
+  background-color: white;
 }
 
 @media only screen and (max-width: 950px) {
@@ -166,7 +197,9 @@
       "kHeader"
       "kodflixImg"
       "kCaption"
-      "kTech";
+      "kTech"
+      "kLink";
+    grid-gap: 0;
   }
 
   .carrate {
@@ -174,7 +207,9 @@
       "cHeader"
       "carrateImg"
       "cCaption"
-      "cTech";
+      "cTech"
+      "cLink";
+    grid-gap: 0;
   }
 
   .kHeader {
@@ -184,5 +219,9 @@
   .title-grid .projectsTitle {
     width: 60%;
     margin-top: 60px;
+  }
+
+  .skills-item-title {
+    font-size: 0.7em;
   }
 }
