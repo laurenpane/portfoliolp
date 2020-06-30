@@ -9,7 +9,7 @@
   right: 0;
   overflow: hidden;
   display: grid;
-  grid-template-columns: 1fr 9fr;
+  grid-template-columns: 1fr 8fr;
   align-content: center;
   justify-items: stretch;
   grid-gap: 3%;

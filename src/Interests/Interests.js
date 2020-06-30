@@ -18,26 +18,37 @@ export default function Interests() {
         <img className="grad" src={grad} alt="graduation" />
         <p className="education">
           Hi, I’m Lauren, a Junior Full-Stack Software Developer based in
-          London. I graduated from the University of Warwick in 2018 with a
-          degree in German, and my interest in languages has since extended into
-          those of the programming variety.
+          London. Always having had a passion for language-learning, I graduated
+          from the University of Warwick in 2018 with a degree in German, and my
+          interest in languages has since extended into those of the programming
+          variety. After practising JavaScript in my free time, spending
+          lunchbreaks in cafes and evenings at my kitchen table, I quickly
+          realised I wanted coding to be more than a hobby. In March 2020, I
+          quit my graduate job to embark on Kodiri’s intensive Bootcamp.
           <br />
           <br />
-          After spending some time practising JavaScript in my free time, I am
-          now enrolled on Kodiri’s intensive Bootcamp, learning JavaScript, HTML
-          and CSS as well as ReactJs and NodeJs.
+          It was here I was able to really immerse myself in programming. The
+          project-led course meant I was quickly learning the pratical
+          application of JavaScript, HTML5, CSS3, ReactJs and NodeJs, and I
+          could pick up new skills and technologies, such as Heroku, Vercel,
+          Git, GitHub, APIs and Slack. I could also consolidate my learning with
+          regular challenges and pair-programming sessions, and was even able to
+          deliver my own workshop about Recursion in JavaScript!
         </p>
         <p className="hobbies" data-aos="fade in">
-          I’m looking to work for a company who would benefit from taking on an
-          enthusiastic, ambitious Junior Developer, and who would support a fast
-          and dedicated learner continue to expand their skills and grow within
-          the team.
+          Having completed the bootcamp, I’m now looking to work for a company
+          who would benefit from having a disciplined, enthusiastic Junior
+          Developer on the team, and who would support a fast and dedicated
+          learner continue to expand their skills, ultimately enhancing the
+          growth and productivity of the team and company.
           <br />
           <br />
-          Aside from programming, I enjoy spending my time getting active
-          outdoors, and socialising with friends and family. I love travelling,
-          particularly when it involves some sort of adventure, particularly
-          mountain-climbing!
+          Aside from programming, I love spending my time getting active
+          outdoors, and socialising. I love travelling, particularly when it
+          involves some sort of adventure, especially mountain-climbing or
+          trekking! I also enjoy getting creative with painting and drawing
+          (although I'm not very good!), as well as reading, doing yoga, or
+          sitting with a cup of tea and catching up with friends and family.
         </p>
         <img
           className="bali"

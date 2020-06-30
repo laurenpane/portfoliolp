@@ -20,7 +20,6 @@ export default function Menu() {
         <Link className="navbar-item" to="/interests">
           About me
         </Link>
-        <p className="navbar-item">Contact</p>
       </div>
     </div>
   );

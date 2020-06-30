@@ -69,8 +69,9 @@ export default function SocialProgramming() {
           </a>
           <p className="social-programming-item">
             Live React event, where myself and a small group of fellow Kodiri
-            students worked together with founder Ricardo Mallols to solve
-            problems that make up the challenge.
+            students worked together live with founder Ricardo Mallols to solve
+            problems that made up the challenge. We were livestreamed to
+            Pusher's YouTube channel.
           </p>
         </div>
       </div>
